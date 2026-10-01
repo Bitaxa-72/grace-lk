@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Демонстрация торгового раздела" />
+    <title>Grace CRM — торговый раздел</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar">
+        <div class="sidebar__brand">
+          <span class="sidebar__brand-mark">✦</span>
+          <span class="sidebar__brand-name">GRACE</span>
+        </div>
+        <div class="sidebar__profile">
+          <span class="sidebar__avatar">П</span>
+          <span>Поставщик G.</span>
+        </div>
+        <nav class="sidebar__nav" aria-label="Основная навигация">
+          <button class="sidebar__nav-item" type="button">Личный кабинет<br />поставщика</button>
+          <button class="sidebar__nav-item" type="button">Коннектор</button>
+          <button class="sidebar__nav-item" type="button">Отгрузка</button>
+          <button class="sidebar__nav-item sidebar__nav-item--active" type="button">Торговый раздел</button>
+        </nav>
+      </aside>
+
+      <main class="trade">
+        <header class="trade__header">
+          <p class="trade__eyebrow">Личный кабинет поставщика</p>
+          <h1 class="trade__title">Торговый раздел</h1>
+          <div class="switcher" role="tablist" aria-label="Тип прайса">
+            <button class="switcher__button switcher__button--active" type="button" data-price-type="wholesale">Опт</button>
+            <button class="switcher__button" type="button" data-price-type="retail">Розница</button>
+          </div>
+        </header>
+
+        <div class="trade__tabs" role="tablist" aria-label="Разделы торговли">
+          <button class="trade__tab" type="button" data-screen="counterparties">Контрагенты</button>
+          <button class="trade__tab" type="button" data-screen="suppliers">Поставщики</button>
+          <button class="trade__tab trade__tab--active" type="button" data-screen="prices">Прайсы</button>
+        </div>
+
+        <section class="screen screen--active" data-screen-panel="prices">
+          <div class="screen__heading">
+            <div>
+              <p class="screen__kicker">Оптовый прайс</p>
+              <h2 class="screen__title">Прайсы</h2>
+            </div>
+            <button class="button button--primary" type="button" data-action="show-price-list">Открыть основной прайс</button>
+          </div>
+          <div class="price-grid">
+            <button class="price-card price-card--featured" type="button" data-action="show-price-list">
+              <span class="price-card__label">Активный</span>
+              <strong class="price-card__title">Основной прайс</strong>
+              <span class="price-card__text">Столы и комплектующие</span>
+              <span class="price-card__arrow">→</span>
+            </button>
+            <button class="price-card" type="button" data-action="show-price-list">
+              <span class="price-card__label">Черновик</span>
+              <strong class="price-card__title">Новый прайс</strong>
+              <span class="price-card__text">Подготовка ассортимента</span>
+              <span class="price-card__arrow">→</span>
+            </button>
+          </div>
+        </section>
+
+        <section class="screen" data-screen-panel="counterparties">
+          <div class="screen__heading">
+            <div><p class="screen__kicker">Торговый раздел</p><h2 class="screen__title">Контрагенты</h2></div>
+            <button class="button button--primary" type="button">Добавить контрагента</button>
+          </div>
+          <div class="empty-card"><span class="empty-card__icon">◎</span><strong>Контрагенты</strong><p>Здесь будет список контрагентов поставщика.</p></div>
+        </section>
+
+        <section class="screen" data-screen-panel="suppliers">
+          <div class="screen__heading">
+            <div><p class="screen__kicker">Торговый раздел</p><h2 class="screen__title">Поставщики</h2></div>
+            <button class="button button--primary" type="button">Добавить поставщика</button>
+          </div>
+          <div class="empty-card"><span class="empty-card__icon">◈</span><strong>Поставщики</strong><p>Здесь будет список поставщиков и их прайсов.</p></div>
+        </section>
+
+        <section class="price-detail" data-price-detail hidden>
+          <button class="back-button" type="button" data-action="show-price-list">← <span>К прайсам</span></button>
+          <div class="price-detail__top">
+            <div><p class="screen__kicker">Оптовый прайс</p><h2 class="screen__title">Основной прайс</h2></div>
+            <span class="status-badge">Активный</span>
+          </div>
+          <div class="price-detail__tabs" role="tablist" aria-label="Раздел прайса">
+            <button class="price-detail__tab price-detail__tab--active" type="button" data-price-screen="catalog">Каталог</button>
+            <button class="price-detail__tab" type="button" data-price-screen="settings">Настройки</button>
+          </div>
+
+          <div class="price-screen price-screen--active" data-price-panel="catalog">
+            <div class="section-title"><h3>Конфигурация стола</h3><p>Выберите механизм или настройте опоры.</p></div>
+            <div class="catalog-grid">
+              <button class="catalog-card" type="button" data-mechanism="vega"><strong>Вега</strong><span>1 подтип</span></button>
+              <button class="catalog-card" type="button" data-mechanism="phantom"><strong>Фантом</strong><span>2 подтипа</span></button>
+              <button class="catalog-card" type="button" data-mechanism="fora"><strong>Фора</strong><span>2 подтипа</span></button>
+              <button class="catalog-card" type="button" data-mechanism="supports"><strong>Опоры</strong><span>Цены и комплектация</span></button>
+            </div>
+            <div class="catalog-preview" data-catalog-preview>
+              <strong>Выберите карточку</strong>
+              <p>Здесь отображаются настройки выбранного механизма или опор.</p>
+            </div>
+          </div>
+
+          <div class="price-screen" data-price-panel="settings">
+            <div class="section-title"><h3>Настройки прайса</h3><p>Общие справочники и цены.</p></div>
+            <div class="settings-grid">
+              <button class="settings-card" type="button"><strong>Размеры</strong><span>Длина, ширина и лепесток</span></button>
+              <button class="settings-card" type="button"><strong>Материалы</strong><span>Материалы и текстуры</span></button>
+              <button class="settings-card" type="button"><strong>Наценки</strong><span>Уровни наценки</span></button>
+              <button class="settings-card" type="button"><strong>Кант в столешницу</strong><span>Общая цена</span></button>
+              <button class="settings-card" type="button"><strong>Цвета опор</strong><span>Текстуры и цены</span></button>
+              <button class="settings-card" type="button"><strong>Лепёшки и молдинги</strong><span>Цвета и текстуры</span></button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="assets/app.js"></script>
+  </body>
+</html>
+
