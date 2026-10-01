@@ -9,10 +9,10 @@ const mechanismButtons = document.querySelectorAll('[data-mechanism]')
 const preview = document.querySelector('[data-catalog-preview]')
 
 const previews = {
-  vega: ['Вега', 'Раскладной механизм. Доступные размеры, материалы и текстуры.'],
-  phantom: ['Фантом', 'Раскладной и нераскладной варианты механизма.'],
-  fora: ['Фора', 'Раскладной и нераскладной варианты. Доступная форма — круг.'],
-  supports: ['Опоры', 'Фиксированный каталог опор, цен и дополнительных комплектующих.']
+  vega: ['Вега', 'Раскладной', '1200 × 600 × 400 мм', 'Керамика ПРО глянец', 'Г-10 глянцевая'],
+  phantom: ['Фантом', 'Раскладной · Нераскладной', '1400 × 800 мм', 'Керамогранит классик про', 'Мрамор белый'],
+  fora: ['Фора', 'Раскладной · Нераскладной', '1100 × 700 мм', 'Керамика ПРО глянец', 'Г-10 глянцевая'],
+  supports: ['Опоры', '40 фиксированных опор', 'Опора ЗИО', 'Кант в опору · Хром-пластины', 'Лепёшка · Молдинг']
 }
 
 const showScreen = (screen) => {
@@ -38,8 +38,7 @@ priceTabs.forEach((button) => button.addEventListener('click', () => {
 }))
 
 mechanismButtons.forEach((button) => button.addEventListener('click', () => {
-  const [title, text] = previews[button.dataset.mechanism]
+  const [title, subtype, size, material, texture] = previews[button.dataset.mechanism]
   mechanismButtons.forEach((item) => item.classList.toggle('catalog-card--active', item === button))
-  preview.innerHTML = `<strong>${title}</strong><p>${text}</p>`
+  preview.innerHTML = `<h4 class="catalog-preview__title">${title}</h4><table class="catalog-preview__table"><thead><tr><th>Исполнение</th><th>Размер</th><th>Материал</th><th>Текстура / допы</th></tr></thead><tbody><tr><td class="catalog-preview__tag">${subtype}</td><td>${size}</td><td>${material}</td><td>${texture}</td></tr></tbody></table>`
 }))
-

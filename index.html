@@ -28,7 +28,6 @@
 
       <main class="trade">
         <header class="trade__header">
-          <p class="trade__eyebrow">Личный кабинет поставщика</p>
           <h1 class="trade__title">Торговый раздел</h1>
           <div class="switcher" role="tablist" aria-label="Тип прайса">
             <button class="switcher__button switcher__button--active" type="button" data-price-type="wholesale">Опт</button>
@@ -52,15 +51,15 @@
           </div>
           <div class="price-grid">
             <button class="price-card price-card--featured" type="button" data-action="show-price-list">
-              <span class="price-card__label">Активный</span>
+              <span class="price-card__label">Поставщик G.</span>
               <strong class="price-card__title">Основной прайс</strong>
-              <span class="price-card__text">Столы и комплектующие</span>
+              <span class="price-card__text">1 прайс · Столы и комплектующие</span>
               <span class="price-card__arrow">→</span>
             </button>
             <button class="price-card" type="button" data-action="show-price-list">
-              <span class="price-card__label">Черновик</span>
-              <strong class="price-card__title">Новый прайс</strong>
-              <span class="price-card__text">Подготовка ассортимента</span>
+              <span class="price-card__label">Поставщик «Мебель»</span>
+              <strong class="price-card__title">Оптовый прайс</strong>
+              <span class="price-card__text">1 прайс · Черновик</span>
               <span class="price-card__arrow">→</span>
             </button>
           </div>
@@ -71,7 +70,12 @@
             <div><p class="screen__kicker">Торговый раздел</p><h2 class="screen__title">Контрагенты</h2></div>
             <button class="button button--primary" type="button">Добавить контрагента</button>
           </div>
-          <div class="empty-card"><span class="empty-card__icon">◎</span><strong>Контрагенты</strong><p>Здесь будет список контрагентов поставщика.</p></div>
+          <div class="entity-table">
+            <div class="entity-table__head"><span>Название</span><span>Телефон</span><span>Статус</span></div>
+            <div class="entity-table__row"><strong>ООО «Мебельная компания»</strong><span>+7 900 000-00-00</span><span class="entity-table__status">Активен</span></div>
+            <div class="entity-table__row"><strong>Салон «Гостиная»</strong><span>+7 901 000-00-00</span><span class="entity-table__status">Активен</span></div>
+            <div class="entity-table__row"><strong>Интерьерный дом</strong><span>+7 902 000-00-00</span><span class="entity-table__status">Активен</span></div>
+          </div>
         </section>
 
         <section class="screen" data-screen-panel="suppliers">
@@ -79,7 +83,11 @@
             <div><p class="screen__kicker">Торговый раздел</p><h2 class="screen__title">Поставщики</h2></div>
             <button class="button button--primary" type="button">Добавить поставщика</button>
           </div>
-          <div class="empty-card"><span class="empty-card__icon">◈</span><strong>Поставщики</strong><p>Здесь будет список поставщиков и их прайсов.</p></div>
+          <div class="entity-table">
+            <div class="entity-table__head"><span>Поставщик</span><span>Прайсов</span><span>Статус</span></div>
+            <div class="entity-table__row"><strong>Поставщик G.</strong><span>1</span><span class="entity-table__status">Активен</span></div>
+            <div class="entity-table__row"><strong>Мебельная группа</strong><span>2</span><span class="entity-table__status">Активен</span></div>
+          </div>
         </section>
 
         <section class="price-detail" data-price-detail hidden>
@@ -103,7 +111,7 @@
             </div>
             <div class="catalog-preview" data-catalog-preview>
               <strong>Выберите карточку</strong>
-              <p>Здесь отображаются настройки выбранного механизма или опор.</p>
+              <p>Откроется статичный пример настроек выбранного раздела.</p>
             </div>
           </div>
 
@@ -124,4 +132,3 @@
     <script src="assets/app.js"></script>
   </body>
 </html>
-
