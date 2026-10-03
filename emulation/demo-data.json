@@ -1,0 +1,1843 @@
+{
+  "counterparties": [
+    {
+      "id": "local-test-counterparty",
+      "name": "Тестовый контрагент",
+      "phone": "+7 (999) 000-00-02",
+      "email": "counterparty@example.test",
+      "markupId": "opt-1",
+      "comment": "Тестовая локальная запись"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "local-test-supplier",
+      "name": "Тестовый поставщик",
+      "phone": "+7 (999) 000-00-01",
+      "email": "supplier@example.test",
+      "markupId": "opt-1",
+      "comment": "Тестовая локальная запись"
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "428d64e1-4d37-46a9-9516-3906565b759a",
+      "length": 1200,
+      "width": 600,
+      "petalLength": 400
+    },
+    {
+      "id": "demo-dimension-1400",
+      "length": 1400,
+      "width": 600,
+      "petalLength": 400
+    },
+    {
+      "id": "demo-dimension-1600",
+      "length": 1600,
+      "width": 600,
+      "petalLength": 500
+    },
+    {
+      "id": "demo-dimension-1800",
+      "length": 1800,
+      "width": 600,
+      "petalLength": 500
+    },
+    {
+      "id": "demo-dimension-2000",
+      "length": 2000,
+      "width": 600,
+      "petalLength": 600
+    }
+  ],
+  "materials": [
+    {
+      "id": "demo-material-eco",
+      "name": "Керамика классик ЭКО Матовый и Глянец",
+      "textures": [
+        {
+          "id": "demo-texture-1-1",
+          "name": "Белый мрамор",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNmMWVlZTcnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nI2M3YmNhOScgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjYzdiY2E5JyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-1-2",
+          "name": "Серый камень",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNkOGQ5ZGMnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nIzhkOTI5Yicgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjOGQ5MjliJyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-1-3",
+          "name": "Тёплый беж",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNkY2M3YTUnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nI2FhODI1NScgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjYWE4MjU1JyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-1-4",
+          "name": "Графит",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyM1NTU5NjMnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nIzI0MjgzMCcgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjMjQyODMwJyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        }
+      ]
+    },
+    {
+      "id": "demo-material-classic",
+      "name": "Керамика классик Матовый и Глянец",
+      "textures": [
+        {
+          "id": "demo-texture-2-1",
+          "name": "Белый мрамор",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNkOGQ5ZGMnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nIzhkOTI5Yicgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjOGQ5MjliJyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-2-2",
+          "name": "Серый камень",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNkY2M3YTUnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nI2FhODI1NScgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjYWE4MjU1JyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-2-3",
+          "name": "Тёплый беж",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyM1NTU5NjMnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nIzI0MjgzMCcgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjMjQyODMwJyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-2-4",
+          "name": "Графит",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNmMWVlZTcnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nI2M3YmNhOScgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjYzdiY2E5JyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        }
+      ]
+    },
+    {
+      "id": "demo-material-pro-matte",
+      "name": "Керамика Классик ПРО Матовый",
+      "textures": [
+        {
+          "id": "demo-texture-3-1",
+          "name": "Белый мрамор",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNkY2M3YTUnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nI2FhODI1NScgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjYWE4MjU1JyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-3-2",
+          "name": "Серый камень",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyM1NTU5NjMnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nIzI0MjgzMCcgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjMjQyODMwJyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-3-3",
+          "name": "Тёплый беж",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNmMWVlZTcnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nI2M3YmNhOScgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjYzdiY2E5JyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-3-4",
+          "name": "Графит",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNkOGQ5ZGMnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nIzhkOTI5Yicgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjOGQ5MjliJyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        }
+      ]
+    },
+    {
+      "id": "23652a21-a5f3-40d8-b842-46e4ac92900e",
+      "name": "Керамика Классик ПРО Глянец",
+      "textures": [
+        {
+          "id": "demo-texture-4-1",
+          "name": "Белый мрамор",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyM1NTU5NjMnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nIzI0MjgzMCcgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjMjQyODMwJyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-4-2",
+          "name": "Серый камень",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNmMWVlZTcnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nI2M3YmNhOScgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjYzdiY2E5JyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-4-3",
+          "name": "Тёплый беж",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNkOGQ5ZGMnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nIzhkOTI5Yicgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjOGQ5MjliJyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-4-4",
+          "name": "Графит",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNkY2M3YTUnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nI2FhODI1NScgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjYWE4MjU1JyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        }
+      ]
+    },
+    {
+      "id": "13335488-245a-4cca-9292-517891a94032",
+      "name": "Керамика Люкс Матовый",
+      "textures": [
+        {
+          "id": "demo-texture-5-1",
+          "name": "Белый мрамор",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNmMWVlZTcnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nI2M3YmNhOScgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjYzdiY2E5JyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-5-2",
+          "name": "Серый камень",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNkOGQ5ZGMnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nIzhkOTI5Yicgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjOGQ5MjliJyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-5-3",
+          "name": "Тёплый беж",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNkY2M3YTUnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nI2FhODI1NScgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjYWE4MjU1JyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-5-4",
+          "name": "Графит",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyM1NTU5NjMnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nIzI0MjgzMCcgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjMjQyODMwJyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        }
+      ]
+    },
+    {
+      "id": "demo-material-lux-gloss",
+      "name": "Керамика Люкс Глянец",
+      "textures": [
+        {
+          "id": "demo-texture-6-1",
+          "name": "Белый мрамор",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNkOGQ5ZGMnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nIzhkOTI5Yicgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjOGQ5MjliJyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-6-2",
+          "name": "Серый камень",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNkY2M3YTUnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nI2FhODI1NScgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjYWE4MjU1JyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-6-3",
+          "name": "Тёплый беж",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyM1NTU5NjMnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nIzI0MjgzMCcgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjMjQyODMwJyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-6-4",
+          "name": "Графит",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNmMWVlZTcnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nI2M3YmNhOScgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjYzdiY2E5JyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        }
+      ]
+    },
+    {
+      "id": "demo-material-premium",
+      "name": "Керамика Премиум Матовый и Глянец",
+      "textures": [
+        {
+          "id": "demo-texture-7-1",
+          "name": "Белый мрамор",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNkY2M3YTUnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nI2FhODI1NScgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjYWE4MjU1JyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-7-2",
+          "name": "Серый камень",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyM1NTU5NjMnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nIzI0MjgzMCcgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjMjQyODMwJyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-7-3",
+          "name": "Тёплый беж",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNmMWVlZTcnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nI2M3YmNhOScgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjYzdiY2E5JyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-7-4",
+          "name": "Графит",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNkOGQ5ZGMnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nIzhkOTI5Yicgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjOGQ5MjliJyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        }
+      ]
+    },
+    {
+      "id": "demo-material-keromallist",
+      "name": "КЕРОМАЛЛИСТ",
+      "textures": [
+        {
+          "id": "demo-texture-8-1",
+          "name": "Белый мрамор",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyM1NTU5NjMnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nIzI0MjgzMCcgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjMjQyODMwJyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-8-2",
+          "name": "Серый камень",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNmMWVlZTcnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nI2M3YmNhOScgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjYzdiY2E5JyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-8-3",
+          "name": "Тёплый беж",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNkOGQ5ZGMnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nIzhkOTI5Yicgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjOGQ5MjliJyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        },
+        {
+          "id": "demo-texture-8-4",
+          "name": "Графит",
+          "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTYwIDEwMCc+PHJlY3Qgd2lkdGg9JzE2MCcgaGVpZ2h0PScxMDAnIGZpbGw9JyNkY2M3YTUnLz48cGF0aCBkPSdNLTIwIDg1IEMyMCAzNSA0NSAxMTUgOTAgNDggUzE0NSAxMCAxODAgNTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nI2FhODI1NScgc3Ryb2tlLXdpZHRoPSc1JyBvcGFjaXR5PScuNycvPjxwYXRoIGQ9J00tMTAgMjUgQzMwIDY1IDcwIC01IDEyMCAzNSBTMTU1IDgwIDE4MCA3MicgZmlsbD0nbm9uZScgc3Ryb2tlPScjYWE4MjU1JyBzdHJva2Utd2lkdGg9JzInIG9wYWNpdHk9Jy40NScvPjwvc3ZnPg=="
+        }
+      ]
+    }
+  ],
+  "catalog-entries": [
+    {
+      "id": "e21a28b6-ba93-4994-a681-6ea8bcab62c0",
+      "mechanismId": "fora",
+      "subtypeId": "folding",
+      "dimensionId": "428d64e1-4d37-46a9-9516-3906565b759a",
+      "materialId": "23652a21-a5f3-40d8-b842-46e4ac92900e",
+      "textureIds": [
+        "4707f7a4-b88d-4afb-bb9c-09bfcb174537"
+      ],
+      "price": 100,
+      "markupId": "opt-1"
+    }
+  ],
+  "markups": [
+    {
+      "id": "opt-1",
+      "name": "ОПТ-1",
+      "percent": 15
+    }
+  ],
+  "supports": [
+    {
+      "id": "support-1",
+      "name": "Опора ЗИО",
+      "imageDataUrl": "/emulation/supports/115-2.webp",
+      "minimumTableSize": 1.2,
+      "maximumTableSize": 2,
+      "hasMetalPlate": true,
+      "hasMdfPlate": true,
+      "hasSupportEdge": true,
+      "hasChromePlates": true,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-2",
+      "name": "Опора НЭО",
+      "imageDataUrl": "/emulation/supports/115-4.webp",
+      "minimumTableSize": 1.4,
+      "maximumTableSize": 2.4,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": false,
+      "hasChromePlates": false,
+      "hasMolding": false,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-3",
+      "name": "Опора ФОРА мини",
+      "imageDataUrl": "/emulation/supports/115-6.webp",
+      "minimumTableSize": 1.6,
+      "maximumTableSize": 2.8,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": true,
+      "hasChromePlates": false,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-4",
+      "name": "Опора ФОРА",
+      "imageDataUrl": "/emulation/supports/115-6.webp",
+      "minimumTableSize": 1.8,
+      "maximumTableSize": 2,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": true,
+      "hasChromePlates": false,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-5",
+      "name": "Опора РИО мини",
+      "imageDataUrl": "/emulation/supports/115-8.webp",
+      "minimumTableSize": 1.2,
+      "maximumTableSize": 2.4,
+      "hasMetalPlate": true,
+      "hasMdfPlate": false,
+      "hasSupportEdge": false,
+      "hasChromePlates": false,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-6",
+      "name": "Опора РИО",
+      "imageDataUrl": "/emulation/supports/115-8.webp",
+      "minimumTableSize": 1.4,
+      "maximumTableSize": 2.8,
+      "hasMetalPlate": false,
+      "hasMdfPlate": true,
+      "hasSupportEdge": true,
+      "hasChromePlates": false,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-7",
+      "name": "Опора ИТАЛИЯ мини",
+      "imageDataUrl": "/emulation/supports/115-10.webp",
+      "minimumTableSize": 1.6,
+      "maximumTableSize": 2,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": true,
+      "hasChromePlates": true,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-8",
+      "name": "Опора ИТАЛИЯ",
+      "imageDataUrl": "/emulation/supports/115-10.webp",
+      "minimumTableSize": 1.8,
+      "maximumTableSize": 2.4,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": false,
+      "hasChromePlates": false,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-9",
+      "name": "Опора ФЛЕЙТА 01",
+      "imageDataUrl": "/emulation/supports/115-12.webp",
+      "minimumTableSize": 1.2,
+      "maximumTableSize": 2.8,
+      "hasMetalPlate": true,
+      "hasMdfPlate": false,
+      "hasSupportEdge": true,
+      "hasChromePlates": false,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-10",
+      "name": "Опора ФЛЕЙТА 02",
+      "imageDataUrl": "/emulation/supports/115-12.webp",
+      "minimumTableSize": 1.4,
+      "maximumTableSize": 2,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": true,
+      "hasChromePlates": false,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-11",
+      "name": "Опора ФЛЕЙТА 03",
+      "imageDataUrl": "/emulation/supports/115-12.webp",
+      "minimumTableSize": 1.6,
+      "maximumTableSize": 2.4,
+      "hasMetalPlate": false,
+      "hasMdfPlate": true,
+      "hasSupportEdge": false,
+      "hasChromePlates": false,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-12",
+      "name": "Опора ФЛЕЙТА круг 01",
+      "imageDataUrl": "/emulation/supports/115-15.webp",
+      "minimumTableSize": 1.8,
+      "maximumTableSize": 2.8,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": true,
+      "hasChromePlates": false,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-13",
+      "name": "Опора ФЛЕЙТА круг 02",
+      "imageDataUrl": "/emulation/supports/115-15.webp",
+      "minimumTableSize": 1.2,
+      "maximumTableSize": 2,
+      "hasMetalPlate": true,
+      "hasMdfPlate": false,
+      "hasSupportEdge": true,
+      "hasChromePlates": true,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-14",
+      "name": "Опора ФЛЕЙТА круг 03",
+      "imageDataUrl": "/emulation/supports/115-15.webp",
+      "minimumTableSize": 1.4,
+      "maximumTableSize": 2.4,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": false,
+      "hasChromePlates": false,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-15",
+      "name": "Опора ФЛЕЙТА А",
+      "imageDataUrl": "/emulation/supports/132-4.webp",
+      "minimumTableSize": 1.6,
+      "maximumTableSize": 2.8,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": true,
+      "hasChromePlates": false,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-16",
+      "name": "Опора ФЛЕЙТА В",
+      "imageDataUrl": "/emulation/supports/132-6.webp",
+      "minimumTableSize": 1.8,
+      "maximumTableSize": 2,
+      "hasMetalPlate": false,
+      "hasMdfPlate": true,
+      "hasSupportEdge": true,
+      "hasChromePlates": false,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-17",
+      "name": "Опора ФЛЕЙТА крест 02",
+      "imageDataUrl": "/emulation/supports/132-16.webp",
+      "minimumTableSize": 1.2,
+      "maximumTableSize": 2.4,
+      "hasMetalPlate": true,
+      "hasMdfPlate": false,
+      "hasSupportEdge": false,
+      "hasChromePlates": false,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-18",
+      "name": "Опора БОН",
+      "imageDataUrl": "/emulation/supports/115-18.webp",
+      "minimumTableSize": 1.4,
+      "maximumTableSize": 2.8,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": true,
+      "hasChromePlates": false,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-19",
+      "name": "Опора БОН круг",
+      "imageDataUrl": "/emulation/supports/115-20.webp",
+      "minimumTableSize": 1.6,
+      "maximumTableSize": 2,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": true,
+      "hasChromePlates": true,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-20",
+      "name": "Опора ЛОК мини",
+      "imageDataUrl": "/emulation/supports/115-22.webp",
+      "minimumTableSize": 1.8,
+      "maximumTableSize": 2.4,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": false,
+      "hasChromePlates": false,
+      "hasMolding": false,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-21",
+      "name": "Опора ЛОК",
+      "imageDataUrl": "/emulation/supports/115-22.webp",
+      "minimumTableSize": 1.2,
+      "maximumTableSize": 2.8,
+      "hasMetalPlate": true,
+      "hasMdfPlate": true,
+      "hasSupportEdge": true,
+      "hasChromePlates": false,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-22",
+      "name": "Опора ДИАМАНТ",
+      "imageDataUrl": "/emulation/supports/124-2.webp",
+      "minimumTableSize": 1.4,
+      "maximumTableSize": 2,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": true,
+      "hasChromePlates": false,
+      "hasMolding": false,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-23",
+      "name": "Опора КРЕСТ",
+      "imageDataUrl": "/emulation/supports/124-4.webp",
+      "minimumTableSize": 1.6,
+      "maximumTableSize": 2.4,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": false,
+      "hasChromePlates": false,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-24",
+      "name": "Опора ФАНТОМ",
+      "imageDataUrl": "/emulation/supports/124-6.webp",
+      "minimumTableSize": 1.8,
+      "maximumTableSize": 2.8,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": true,
+      "hasChromePlates": false,
+      "hasMolding": false,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-25",
+      "name": "Опора МУН",
+      "imageDataUrl": "/emulation/supports/124-8.webp",
+      "minimumTableSize": 1.2,
+      "maximumTableSize": 2,
+      "hasMetalPlate": true,
+      "hasMdfPlate": false,
+      "hasSupportEdge": true,
+      "hasChromePlates": true,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-26",
+      "name": "Опора АНДИ",
+      "imageDataUrl": "/emulation/supports/124-10.webp",
+      "minimumTableSize": 1.4,
+      "maximumTableSize": 2.4,
+      "hasMetalPlate": false,
+      "hasMdfPlate": true,
+      "hasSupportEdge": false,
+      "hasChromePlates": false,
+      "hasMolding": false,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-27",
+      "name": "Опора СТОУН",
+      "imageDataUrl": "/emulation/supports/124-12.webp",
+      "minimumTableSize": 1.6,
+      "maximumTableSize": 2.8,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": true,
+      "hasChromePlates": false,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-28",
+      "name": "Опора ДУО",
+      "imageDataUrl": "/emulation/supports/124-14.webp",
+      "minimumTableSize": 1.8,
+      "maximumTableSize": 2,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": true,
+      "hasChromePlates": false,
+      "hasMolding": false,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-29",
+      "name": "Опора ИО",
+      "imageDataUrl": "/emulation/supports/124-16.webp",
+      "minimumTableSize": 1.2,
+      "maximumTableSize": 2.4,
+      "hasMetalPlate": true,
+      "hasMdfPlate": false,
+      "hasSupportEdge": false,
+      "hasChromePlates": false,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-30",
+      "name": "Опора Х",
+      "imageDataUrl": "/emulation/supports/124-18.webp",
+      "minimumTableSize": 1.4,
+      "maximumTableSize": 2.8,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": true,
+      "hasChromePlates": false,
+      "hasMolding": false,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-31",
+      "name": "Опора ВИТА",
+      "imageDataUrl": "/emulation/supports/124-20.webp",
+      "minimumTableSize": 1.6,
+      "maximumTableSize": 2,
+      "hasMetalPlate": false,
+      "hasMdfPlate": true,
+      "hasSupportEdge": true,
+      "hasChromePlates": true,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-32",
+      "name": "Опора ВИКТОРИЯ",
+      "imageDataUrl": "/emulation/supports/124-22.webp",
+      "minimumTableSize": 1.8,
+      "maximumTableSize": 2.4,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": false,
+      "hasChromePlates": false,
+      "hasMolding": false,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-33",
+      "name": "Опора МАРТИН",
+      "imageDataUrl": "/emulation/supports/132-2.webp",
+      "minimumTableSize": 1.2,
+      "maximumTableSize": 2.8,
+      "hasMetalPlate": true,
+      "hasMdfPlate": false,
+      "hasSupportEdge": true,
+      "hasChromePlates": false,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-34",
+      "name": "Опора ОРГАНО",
+      "imageDataUrl": "/emulation/supports/132-8.webp",
+      "minimumTableSize": 1.4,
+      "maximumTableSize": 2,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": true,
+      "hasChromePlates": false,
+      "hasMolding": false,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-35",
+      "name": "Опора ПЕКИН",
+      "imageDataUrl": "/emulation/supports/132-10.webp",
+      "minimumTableSize": 1.6,
+      "maximumTableSize": 2.4,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": false,
+      "hasChromePlates": false,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-36",
+      "name": "Опора ПЕРО",
+      "imageDataUrl": "/emulation/supports/132-12.webp",
+      "minimumTableSize": 1.8,
+      "maximumTableSize": 2.8,
+      "hasMetalPlate": false,
+      "hasMdfPlate": true,
+      "hasSupportEdge": true,
+      "hasChromePlates": false,
+      "hasMolding": false,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-37",
+      "name": "Опора МАЙК",
+      "imageDataUrl": "/emulation/supports/132-14.webp",
+      "minimumTableSize": 1.2,
+      "maximumTableSize": 2,
+      "hasMetalPlate": true,
+      "hasMdfPlate": false,
+      "hasSupportEdge": true,
+      "hasChromePlates": true,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-38",
+      "name": "Опора МОНРО",
+      "imageDataUrl": "/emulation/supports/132-18.webp",
+      "minimumTableSize": 1.4,
+      "maximumTableSize": 2.4,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": false,
+      "hasChromePlates": false,
+      "hasMolding": false,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-39",
+      "name": "Опора СКОБА",
+      "imageDataUrl": "/emulation/supports/132-20.webp",
+      "minimumTableSize": 1.6,
+      "maximumTableSize": 2.8,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": true,
+      "hasChromePlates": false,
+      "hasMolding": true,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "support-40",
+      "name": "Опора КАМ",
+      "imageDataUrl": "/emulation/supports/149-6.webp",
+      "minimumTableSize": 1.8,
+      "maximumTableSize": 2,
+      "hasMetalPlate": false,
+      "hasMdfPlate": false,
+      "hasSupportEdge": true,
+      "hasChromePlates": false,
+      "hasMolding": false,
+      "price": null,
+      "markupId": "opt-1",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    }
+  ],
+  "countertop-edge": [
+    {
+      "id": "countertop-edge",
+      "price": 1500,
+      "markupId": "opt-1"
+    }
+  ],
+  "catalog-matrices": [
+    {
+      "id": "vega:folding",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionIds": [
+        "428d64e1-4d37-46a9-9516-3906565b759a",
+        "demo-dimension-1400",
+        "demo-dimension-1600",
+        "demo-dimension-1800",
+        "demo-dimension-2000"
+      ],
+      "columns": [
+        {
+          "id": "demo-column-1",
+          "materialId": "demo-material-eco",
+          "textureIds": [
+            "demo-texture-1-1",
+            "demo-texture-1-2",
+            "demo-texture-1-3",
+            "demo-texture-1-4"
+          ]
+        },
+        {
+          "id": "demo-column-2",
+          "materialId": "demo-material-classic",
+          "textureIds": [
+            "demo-texture-2-1",
+            "demo-texture-2-2",
+            "demo-texture-2-3",
+            "demo-texture-2-4"
+          ]
+        },
+        {
+          "id": "demo-column-3",
+          "materialId": "demo-material-pro-matte",
+          "textureIds": [
+            "demo-texture-3-1",
+            "demo-texture-3-2",
+            "demo-texture-3-3",
+            "demo-texture-3-4"
+          ]
+        },
+        {
+          "id": "demo-column-4",
+          "materialId": "23652a21-a5f3-40d8-b842-46e4ac92900e",
+          "textureIds": [
+            "demo-texture-4-1",
+            "demo-texture-4-2",
+            "demo-texture-4-3",
+            "demo-texture-4-4"
+          ]
+        },
+        {
+          "id": "demo-column-5",
+          "materialId": "13335488-245a-4cca-9292-517891a94032",
+          "textureIds": [
+            "demo-texture-5-1",
+            "demo-texture-5-2",
+            "demo-texture-5-3",
+            "demo-texture-5-4"
+          ]
+        },
+        {
+          "id": "demo-column-6",
+          "materialId": "demo-material-lux-gloss",
+          "textureIds": [
+            "demo-texture-6-1",
+            "demo-texture-6-2",
+            "demo-texture-6-3",
+            "demo-texture-6-4"
+          ]
+        },
+        {
+          "id": "demo-column-7",
+          "materialId": "demo-material-premium",
+          "textureIds": [
+            "demo-texture-7-1",
+            "demo-texture-7-2",
+            "demo-texture-7-3",
+            "demo-texture-7-4"
+          ]
+        },
+        {
+          "id": "demo-column-8",
+          "materialId": "demo-material-keromallist",
+          "textureIds": [
+            "demo-texture-8-1",
+            "demo-texture-8-2",
+            "demo-texture-8-3",
+            "demo-texture-8-4"
+          ]
+        }
+      ]
+    }
+  ],
+  "catalog-price-cells": [
+    {
+      "id": "vega:folding:demo-dimension-1400:demo-column-1",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1400",
+      "columnId": "demo-column-1",
+      "price": 34800,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:demo-dimension-1400:demo-column-2",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1400",
+      "columnId": "demo-column-2",
+      "price": 26400,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:demo-dimension-1400:demo-column-3",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1400",
+      "columnId": "demo-column-3",
+      "price": 34400,
+      "comment": "Рисунок не совпадает"
+    },
+    {
+      "id": "vega:folding:demo-dimension-1400:demo-column-4",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1400",
+      "columnId": "demo-column-4",
+      "price": 39900,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:demo-dimension-1400:demo-column-5",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1400",
+      "columnId": "demo-column-5",
+      "price": 38200,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:demo-dimension-1400:demo-column-6",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1400",
+      "columnId": "demo-column-6",
+      "price": 45400,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:demo-dimension-1400:demo-column-7",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1400",
+      "columnId": "demo-column-7",
+      "price": 46500,
+      "comment": "Рисунок не совпадает"
+    },
+    {
+      "id": "vega:folding:demo-dimension-1400:demo-column-8",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1400",
+      "columnId": "demo-column-8",
+      "price": 27400,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:demo-dimension-1600:demo-column-1",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1600",
+      "columnId": "demo-column-1",
+      "price": 42500,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:demo-dimension-1600:demo-column-2",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1600",
+      "columnId": "demo-column-2",
+      "price": 33400,
+      "comment": "Рисунок не совпадает"
+    },
+    {
+      "id": "vega:folding:demo-dimension-1600:demo-column-3",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1600",
+      "columnId": "demo-column-3",
+      "price": 38700,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:demo-dimension-1600:demo-column-4",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1600",
+      "columnId": "demo-column-4",
+      "price": 44200,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:demo-dimension-1600:demo-column-5",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1600",
+      "columnId": "demo-column-5",
+      "price": 42500,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:demo-dimension-1600:demo-column-6",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1600",
+      "columnId": "demo-column-6",
+      "price": 49700,
+      "comment": "Рисунок не совпадает"
+    },
+    {
+      "id": "vega:folding:demo-dimension-1600:demo-column-7",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1600",
+      "columnId": "demo-column-7",
+      "price": 50800,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:demo-dimension-1600:demo-column-8",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1600",
+      "columnId": "demo-column-8",
+      "price": 36900,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:demo-dimension-1800:demo-column-1",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1800",
+      "columnId": "demo-column-1",
+      "price": 42800,
+      "comment": "Рисунок не совпадает"
+    },
+    {
+      "id": "vega:folding:demo-dimension-1800:demo-column-2",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1800",
+      "columnId": "demo-column-2",
+      "price": 35200,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:demo-dimension-1800:demo-column-3",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1800",
+      "columnId": "demo-column-3",
+      "price": 41600,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:demo-dimension-1800:demo-column-4",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1800",
+      "columnId": "demo-column-4",
+      "price": 48200,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:demo-dimension-1800:demo-column-5",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1800",
+      "columnId": "demo-column-5",
+      "price": 46200,
+      "comment": "Рисунок не совпадает"
+    },
+    {
+      "id": "vega:folding:demo-dimension-1800:demo-column-6",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1800",
+      "columnId": "demo-column-6",
+      "price": 54800,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:demo-dimension-1800:demo-column-7",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1800",
+      "columnId": "demo-column-7",
+      "price": 56100,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:demo-dimension-1800:demo-column-8",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "demo-dimension-1800",
+      "columnId": "demo-column-8",
+      "price": 39600,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:428d64e1-4d37-46a9-9516-3906565b759a:demo-column-1",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "428d64e1-4d37-46a9-9516-3906565b759a",
+      "columnId": "demo-column-1",
+      "price": 30800,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:428d64e1-4d37-46a9-9516-3906565b759a:demo-column-2",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "428d64e1-4d37-46a9-9516-3906565b759a",
+      "columnId": "demo-column-2",
+      "price": 25900,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:428d64e1-4d37-46a9-9516-3906565b759a:demo-column-3",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "428d64e1-4d37-46a9-9516-3906565b759a",
+      "columnId": "demo-column-3",
+      "price": 33800,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:428d64e1-4d37-46a9-9516-3906565b759a:demo-column-4",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "428d64e1-4d37-46a9-9516-3906565b759a",
+      "columnId": "demo-column-4",
+      "price": 39300,
+      "comment": "Рисунок не совпадает"
+    },
+    {
+      "id": "vega:folding:428d64e1-4d37-46a9-9516-3906565b759a:demo-column-5",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "428d64e1-4d37-46a9-9516-3906565b759a",
+      "columnId": "demo-column-5",
+      "price": 37700,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:428d64e1-4d37-46a9-9516-3906565b759a:demo-column-6",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "428d64e1-4d37-46a9-9516-3906565b759a",
+      "columnId": "demo-column-6",
+      "price": 44800,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:428d64e1-4d37-46a9-9516-3906565b759a:demo-column-7",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "428d64e1-4d37-46a9-9516-3906565b759a",
+      "columnId": "demo-column-7",
+      "price": 45900,
+      "comment": "Рисунок совпадает"
+    },
+    {
+      "id": "vega:folding:428d64e1-4d37-46a9-9516-3906565b759a:demo-column-8",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "dimensionId": "428d64e1-4d37-46a9-9516-3906565b759a",
+      "columnId": "demo-column-8",
+      "price": 25700,
+      "comment": "Рисунок не совпадает"
+    }
+  ],
+  "support-colors": [
+    {
+      "id": "support-color-white",
+      "name": "Белый",
+      "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCI+PHJlY3Qgd2lkdGg9IjgwIiBoZWlnaHQ9IjgwIiByeD0iNDAiIGZpbGw9IiNmN2Y3ZjQiLz48L3N2Zz4=",
+      "price": null,
+      "markupId": ""
+    },
+    {
+      "id": "support-color-black",
+      "name": "Чёрный",
+      "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCI+PHJlY3Qgd2lkdGg9IjgwIiBoZWlnaHQ9IjgwIiByeD0iNDAiIGZpbGw9IiMyNDI0MjQiLz48L3N2Zz4=",
+      "price": null,
+      "markupId": ""
+    },
+    {
+      "id": "support-color-gold",
+      "name": "Золото",
+      "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCI+PHJlY3Qgd2lkdGg9IjgwIiBoZWlnaHQ9IjgwIiByeD0iNDAiIGZpbGw9IiNjOWEyMjciLz48L3N2Zz4=",
+      "price": 1500,
+      "markupId": ""
+    },
+    {
+      "id": "support-color-silver",
+      "name": "Серебро",
+      "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCI+PHJlY3Qgd2lkdGg9IjgwIiBoZWlnaHQ9IjgwIiByeD0iNDAiIGZpbGw9IiNiN2JjYzQiLz48L3N2Zz4=",
+      "price": null,
+      "markupId": ""
+    },
+    {
+      "id": "support-color-bronze",
+      "name": "Бронза",
+      "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCI+PHJlY3Qgd2lkdGg9IjgwIiBoZWlnaHQ9IjgwIiByeD0iNDAiIGZpbGw9IiM4YjVhMmIiLz48L3N2Zz4=",
+      "price": null,
+      "markupId": ""
+    },
+    {
+      "id": "support-color-cappuccino",
+      "name": "Капучино",
+      "imageDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCI+PHJlY3Qgd2lkdGg9IjgwIiBoZWlnaHQ9IjgwIiByeD0iNDAiIGZpbGw9IiNhOThiNzIiLz48L3N2Zz4=",
+      "price": 1000,
+      "markupId": ""
+    }
+  ],
+  "mechanism-supports": [
+    {
+      "id": "demo-vega-support-1",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "supportId": "support-1",
+      "colorIds": [
+        "support-color-white",
+        "support-color-black",
+        "support-color-gold",
+        "support-color-silver",
+        "support-color-bronze",
+        "support-color-cappuccino"
+      ],
+      "price": 17900,
+      "markupId": "",
+      "supportEdgePrice": 1500,
+      "chromePlatesPrice": 1000,
+      "metalPlatePrice": 1000,
+      "mdfPlatePrice": 1000,
+      "moldingPrice": 2000
+    },
+    {
+      "id": "demo-vega-support-2",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "supportId": "support-2",
+      "colorIds": [
+        "support-color-white",
+        "support-color-black",
+        "support-color-gold",
+        "support-color-silver",
+        "support-color-bronze",
+        "support-color-cappuccino"
+      ],
+      "price": 19500,
+      "markupId": "",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    },
+    {
+      "id": "demo-vega-support-3",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "supportId": "support-3",
+      "colorIds": [
+        "support-color-white",
+        "support-color-black",
+        "support-color-gold",
+        "support-color-silver",
+        "support-color-bronze",
+        "support-color-cappuccino"
+      ],
+      "price": 15300,
+      "markupId": "",
+      "supportEdgePrice": 17000,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": 18600
+    },
+    {
+      "id": "demo-vega-support-4",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "supportId": "support-4",
+      "colorIds": [
+        "support-color-white",
+        "support-color-black",
+        "support-color-gold",
+        "support-color-silver",
+        "support-color-bronze",
+        "support-color-cappuccino"
+      ],
+      "price": 19100,
+      "markupId": "",
+      "supportEdgePrice": 20700,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": 22400
+    },
+    {
+      "id": "demo-vega-support-5",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "supportId": "support-5",
+      "colorIds": [
+        "support-color-white",
+        "support-color-black",
+        "support-color-gold",
+        "support-color-silver",
+        "support-color-bronze",
+        "support-color-cappuccino"
+      ],
+      "price": 16700,
+      "markupId": "",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": 2200,
+      "mdfPlatePrice": null,
+      "moldingPrice": 20000
+    },
+    {
+      "id": "demo-vega-support-6",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "supportId": "support-6",
+      "colorIds": [
+        "support-color-white",
+        "support-color-black",
+        "support-color-gold",
+        "support-color-silver",
+        "support-color-bronze",
+        "support-color-cappuccino"
+      ],
+      "price": 20000,
+      "markupId": "",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": 2600,
+      "moldingPrice": 23300
+    },
+    {
+      "id": "demo-vega-support-7",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "supportId": "support-7",
+      "colorIds": [
+        "support-color-white",
+        "support-color-black",
+        "support-color-gold",
+        "support-color-silver",
+        "support-color-bronze",
+        "support-color-cappuccino"
+      ],
+      "price": 17200,
+      "markupId": "",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": 1800,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": 20500
+    },
+    {
+      "id": "demo-vega-support-8",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "supportId": "support-8",
+      "colorIds": [
+        "support-color-white",
+        "support-color-black",
+        "support-color-gold",
+        "support-color-silver",
+        "support-color-bronze",
+        "support-color-cappuccino"
+      ],
+      "price": 20000,
+      "markupId": "",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": 23300
+    },
+    {
+      "id": "demo-vega-support-9",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "supportId": "support-9",
+      "colorIds": [
+        "support-color-white",
+        "support-color-black",
+        "support-color-gold",
+        "support-color-silver",
+        "support-color-bronze",
+        "support-color-cappuccino"
+      ],
+      "price": 13600,
+      "markupId": "",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": 2300,
+      "mdfPlatePrice": null,
+      "moldingPrice": 16900
+    },
+    {
+      "id": "demo-vega-support-10",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "supportId": "support-10",
+      "colorIds": [
+        "support-color-white",
+        "support-color-black",
+        "support-color-gold",
+        "support-color-silver",
+        "support-color-bronze",
+        "support-color-cappuccino"
+      ],
+      "price": 16200,
+      "markupId": "",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": 19500
+    },
+    {
+      "id": "demo-vega-support-11",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "supportId": "support-11",
+      "colorIds": [
+        "support-color-white",
+        "support-color-black",
+        "support-color-gold",
+        "support-color-silver",
+        "support-color-bronze",
+        "support-color-cappuccino"
+      ],
+      "price": 19300,
+      "markupId": "",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": 22600
+    },
+    {
+      "id": "demo-vega-support-12",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "supportId": "support-12",
+      "colorIds": [
+        "support-color-white",
+        "support-color-black",
+        "support-color-gold",
+        "support-color-silver",
+        "support-color-bronze",
+        "support-color-cappuccino"
+      ],
+      "price": 14200,
+      "markupId": "",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": 17500
+    },
+    {
+      "id": "demo-vega-support-13",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "supportId": "support-13",
+      "colorIds": [
+        "support-color-white",
+        "support-color-black",
+        "support-color-gold",
+        "support-color-silver",
+        "support-color-bronze",
+        "support-color-cappuccino"
+      ],
+      "price": 16800,
+      "markupId": "",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": 1900,
+      "metalPlatePrice": 2500,
+      "mdfPlatePrice": null,
+      "moldingPrice": 20100
+    },
+    {
+      "id": "demo-vega-support-14",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "supportId": "support-14",
+      "colorIds": [
+        "support-color-white",
+        "support-color-black",
+        "support-color-gold",
+        "support-color-silver",
+        "support-color-bronze",
+        "support-color-cappuccino"
+      ],
+      "price": 21100,
+      "markupId": "",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": 24400
+    },
+    {
+      "id": "demo-vega-support-18",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "supportId": "support-18",
+      "colorIds": [
+        "support-color-white",
+        "support-color-black",
+        "support-color-gold",
+        "support-color-silver",
+        "support-color-bronze",
+        "support-color-cappuccino"
+      ],
+      "price": 17600,
+      "markupId": "",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": 20900
+    },
+    {
+      "id": "demo-vega-support-19",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "supportId": "support-19",
+      "colorIds": [
+        "support-color-white",
+        "support-color-black",
+        "support-color-gold",
+        "support-color-silver",
+        "support-color-bronze",
+        "support-color-cappuccino"
+      ],
+      "price": 18000,
+      "markupId": "",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": 21300
+    },
+    {
+      "id": "demo-vega-support-20",
+      "mechanismId": "vega",
+      "subtypeId": "folding",
+      "supportId": "support-20",
+      "colorIds": [
+        "support-color-white",
+        "support-color-black",
+        "support-color-gold",
+        "support-color-silver",
+        "support-color-bronze",
+        "support-color-cappuccino"
+      ],
+      "price": 20500,
+      "markupId": "",
+      "supportEdgePrice": null,
+      "chromePlatesPrice": null,
+      "metalPlatePrice": null,
+      "mdfPlatePrice": null,
+      "moldingPrice": null
+    }
+  ]
+}

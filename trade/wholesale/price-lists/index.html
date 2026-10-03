@@ -1,13 +1,37 @@
 <!doctype html>
-<html lang="ru">
+<html lang="ru" class="">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=0.8, maximum-scale=0.8, user-scalable=0"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link rel="icon" href="/grace-lk/favicon.ico" type="image/x-icon" />
     <title>Grace CRM</title>
-    <script type="module" crossorigin src="/grace-lk/assets/public-demo-bRSILRBV.js"></script>
-    <link rel="stylesheet" crossorigin href="/grace-lk/assets/public-demo-DsKow94B.css">
+    <script
+      type="module"
+      crossorigin
+      src="/grace-lk/assets/index-CkOPzUih.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      crossorigin
+      href="/grace-lk/assets/index-BOsM3FST.css"
+    />
   </head>
   <body>
+    <div id="portal"></div>
+    <div
+      id="preloader"
+      class="fixed left-0 top-0 z-999999 flex h-screen w-screen items-center justify-center bg-white dark:bg-black"
+    >
+      <div
+        class="h-16 w-16 animate-spin rounded-full border-4 border-solid border-primary border-t-transparent"
+      ></div>
+    </div>
     <div id="root"></div>
   </body>
 </html>
