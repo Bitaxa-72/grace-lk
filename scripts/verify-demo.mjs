@@ -15,6 +15,8 @@ for (const reference of references) {
 const data = JSON.parse(readFileSync("emulation/demo-data.json", "utf8"));
 
 assert.equal(data.supports.length, 40);
+assert.ok(data.supports.every((support) => typeof support.material === "string"));
+assert.ok(new Set(data.supports.map((support) => support.material)).size > 1);
 assert.equal(data["mechanism-supports"].length, 17);
 assert.equal(data["catalog-price-cells"].length, 32);
 
